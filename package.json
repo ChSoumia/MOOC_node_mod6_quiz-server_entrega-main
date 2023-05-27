@@ -1,0 +1,29 @@
+{
+    "name": "MOOC_node_mod6_quiz-server_entrega",
+    "author": "ging-moocs",
+    "license": "MIT",
+    "version": "0.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "info": {
+        "githubURL": "ging-moocs/MOOC_node_mod6_quiz-server_entrega",
+        "serverUrl": "https://moocbot.dit.upm.es/",
+        "courseId": "1262",
+        "assignmentId": "549"
+    },
+    "engines": {
+        "node": ">=16.8.0",
+        "npm": ">=7.21.0"
+    },
+    "dependencies": {
+        "autocorector": "^3.1.6",
+        "express": "^4.18.2",
+        "fs-extra": "^11.1.1",
+        "method-override": "^3.0.0",
+        "sequelize": "^6.31.1",
+        "sequelize-cli": "^6.6.0",
+        "sqlite3": "^5.1.6"
+    }
+}
